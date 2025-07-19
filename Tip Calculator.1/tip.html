@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    >
+</head>
+<body>
+    
+<html>
+  <head>
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tip.css" />
+  </head>
+  <body>
+    <div class="tip-calculator-container">
+      <img
+        class="tip-calculator-image"
+        src= https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGZ-54O5c_M4iO1kAHfmXHi-MtioW4hgiDwQ&s>
+      
+      <h1 class="tip-calculator-heading">Tip Calculator</h1>
+      <div class="flex-container">
+        <div class="input-group">
+          <p class="input-label">BILL AMOUNT</p>
+          <input type="text" class="user-input" id="billAmount" />
+        </div>
+        <div class="input-group">
+          <p class="input-label">PERCENTAGE TIP</p>
+          <input type="text" class="user-input" id="percentageTip" />
+        </div>
+        <div class="input-group">
+          <p class="input-label">TIP AMOUNT</p>
+          <input type="text" class="user-input" id="tipAmount" readonly />
+        </div>
+        <div class="input-group">
+          <p class="input-label">TOTAL</p>
+          <input type="text" class="user-input" id="totalAmount" readonly />
+        </div>
+      </div>
+      <div class="text-center">
+        <button
+          class="calculate-tip-button"
+          onclick="CalculateTip()"
+          id="calculateButton"
+        >
+          CALCULATE
+        </button>
+        <p class="error-message" id="errorMessage"></p>
+      </div>
+    </div>
+
+    <script src = "tip.js">
+      
+    </script>
+  </body>
+</html>
