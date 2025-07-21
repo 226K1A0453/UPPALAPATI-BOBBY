@@ -1,0 +1,64 @@
+.s{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+}
+  .s2,.s3,.s1{
+    margin: 10%;
+    border-radius: 30px;
+    width: 70px;
+   height: 60px;
+   
+   
+  }
+
+.s5,.s6,.s7{
+   
+    background-color:rgb(49, 39, 39) ;
+    border-radius: 60%;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    
+    
+   
+}  
+.b1{
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
+    
+  
+}
+.s4{
+    background-color: aqua;
+    
+    margin: 5%;
+    border: 4PX solid black;
+    border-radius: 50px;
+
+
+    
+}
+body{
+   
+    background-image: url("karsten-wurth-rafblRbne3o-unsplash.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+   .s1:hover{
+background-color: rgb(236, 58, 58)
+   }
+    .s2:hover{
+background-color: rgb(241, 226, 5);
+   }
+   .s3:hover{
+background-color: rgb(33, 131, 3);
+   }
+   
+
+
+
+
